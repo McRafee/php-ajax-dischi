@@ -30,7 +30,7 @@ $(document).ready(function() {
             var albums = data;
             for (var i = 0; i < albums.length; i++) {
                 var album = albums[i];
-                console.log(album);
+                // console.log(album); // debug
                 var albumInformation = {
                     poster: album.poster,
                     title: album.title,

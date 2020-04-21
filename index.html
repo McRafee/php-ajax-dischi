@@ -14,17 +14,20 @@
 <body>
     <header>
         <div class="container">
-            <img src="img/logo.png" alt="logo" />
+            <img src="../php-ajax-dischi/dist/img/logo.png" alt="logo" />
+            <button type="button" name="button"><a href="index.php">Go to PHP version</a></button>
+            <div class="container-select">
+                    <select class="genre-selector" name="Genre">
+                        <option value="">Choose genre</option>
+                        <option value="alternative">Alternative</option>
+                        <option value="punk">Punk</option>
+                        <option value="rock">Rock</option>
+                    </select>
+            </div>
         </div>
+
     </header>
-    <div class="container container-select">
-            <select class="genre-selector" name="Genre">
-                <option value="">Choose genre</option>
-                <option value="pop">Alternative</option>
-                <option value="jazz">Punk</option>
-                <option value="rock">Rock</option>
-            </select>
-    </div>
+
     <div class="albums-container container">
 
     </div>
