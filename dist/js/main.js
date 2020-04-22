@@ -114,7 +114,7 @@ $(document).ready(function () {
     }
   });
   $.ajax({
-    url: "../php-ajax-dischi/dist/php/server.php",
+    url: "dist/php/server.php",
     method: "GET",
     success: function success(data) {
       console.log(data);

@@ -1,4 +1,5 @@
-<?php include "../php-ajax-dischi/dist/php/data.php"  ?>
+<?php include __DIR__."/dist/php/data.php";
+?>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 
@@ -15,7 +16,7 @@
 <body>
     <header>
         <div class="container">
-            <img src="../php-ajax-dischi/dist/img/logo.png" alt="logo" />
+            <img src="dist/img/logo.png" alt="logo" />
             <button type="button" name="button"><a href="index.html">Go to jQuery version</a></button>
             <div class="container-select">
                     <select class="genre-selector" name="Genre">
@@ -38,7 +39,6 @@
                 <span class="year"><?php echo $album['year']; ?></span>
                 </div>
         <?php } ?>
-
     </div>
 
     <script type="text/javascript">
